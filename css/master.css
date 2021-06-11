@@ -1,0 +1,82 @@
+body{
+    margin: 0px;
+    background-color: aliceblue;
+}
+nav{
+    background-color: darkcyan;
+    padding: auto;
+}
+ul{
+    display: inline-block;
+}
+button{
+    
+    text-align: center;
+    font-size: large;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    height: 45px;
+    background-color: cyan;
+    border-radius: 10px;
+}
+#barContainer{
+    text-align: center;
+    
+    display: inline-block;
+}
+#barContainer span{
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-left: 10px;
+
+}
+
+/* slider.oninput = function() {
+  output.innerHTML = this.value;
+} */
+/*.backGC{
+    background-color: wheat;
+}*/
+section{
+    position: relative;
+    
+}
+.containerC{
+    margin: 0 auto;
+    /*position: absolute;*/
+    
+    left: 20%;
+    right: 20%;
+    display: flex;
+    /* /background-color: yellow; */
+    width: fit-content;
+}
+#container > div{
+    
+     margin:0px 2px ;
+     width: 6px;
+}
+.navBtn{
+    margin: 0px auto;
+}
+/* #myRange{
+    -webkit-appearance: none;
+  border: 1px solid #000000;
+  height: 36px;
+  width: 100%;
+  border-radius: 3px;
+  background: #ffffff;
+  cursor: pointer;
+  margin-top: -14px; 
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+} */
+
+@media only screen and (max-width: 1080px) {
+    #container > div{
+    
+        margin:0px 1px ;
+        width: 2px;
+   }
+}
