@@ -31,12 +31,10 @@ window.onload = update_array_size();
 
 //slideBars events
 amountBar.addEventListener('input', update_array_size);
-speedBar.oninput = function () {
-    speed = speedBar.value;
-    delay_time = 10000 / (Math.floor(testing / 10) * speed);
-    // console.log(speed);
-    // /delayTime();
-
+speedBar.oninput = async function () {
+    // speed = speedBar.value;
+    // delay_time = 10000 / (Math.floor(testing / 10) * speed);
+    speed = await speedBarF();
 }
 //bubbleBtn.disabled = true;
 // btns events
@@ -50,12 +48,11 @@ mergBtn.addEventListener('click', startMergSort);
 //fuctions
 
 
-// async function delayTime() {
-//     speed = speedBar.value;
-//     delay_time = 10000 / (Math.floor(testing / 10) * speed);
-//     return delay_time;
-// }
-//delayTime = await delayTime();
+async function speedBarF() {
+    // speed = speedBar.value;
+    delay_time = 10000 / (Math.floor(testing / 10) * speed);
+    return speedBar.value;
+}
 function generate() {
     contDiv.innerHTML = '';
     bubbleBtn.disabled = false;
