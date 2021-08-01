@@ -1,36 +1,35 @@
-body{
-    margin: 0px;
-    background-color: aliceblue;
+body {
+  margin: 0px;
+  background-color: aliceblue;
 }
-nav{
-    background-color: darkcyan;
-    padding: auto;
+nav {
+  background-color: #429ebd;
+  padding: auto;
 }
-ul{
-    display: inline-block;
+ul {
+  display: inline-block;
 }
-button{
-    
-    text-align: center;
-    font-size: large;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bolder;
-    height: 45px;
-    background-color: cyan;
-    border-radius: 10px;
+button {
+  text-align: center;
+  font-size: large;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  height: 45px;
+  background-color: #9fe7f5;
+  border-radius: 5px;
+  border: none;
 }
-#barContainer{
-    text-align: center;
-    
-    display: inline-block;
-}
-#barContainer span{
-    color: #000;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bolder;
-    font-size: 20px;
-    margin-left: 10px;
+#barContainer {
+  text-align: center;
 
+  display: inline-block;
+}
+#barContainer span {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  font-size: 20px;
+  margin-left: 10px;
 }
 
 /* slider.oninput = function() {
@@ -39,27 +38,25 @@ button{
 /*.backGC{
     background-color: wheat;
 }*/
-section{
-    position: relative;
-    
+section {
+  position: relative;
 }
-.containerC{
-    margin: 0 auto;
-    /*position: absolute;*/
-    
-    left: 20%;
-    right: 20%;
-    display: flex;
-    /* /background-color: yellow; */
-    width: fit-content;
+.containerC {
+  margin: 0 auto;
+  /*position: absolute;*/
+
+  left: 20%;
+  right: 20%;
+  display: flex;
+  /* /background-color: yellow; */
+  width: fit-content;
 }
-#container > div{
-    
-     margin:0px 2px ;
-     width: 6px;
+#container > div {
+  margin: 0px 2px;
+  width: 6px;
 }
-.navBtn{
-    margin: 0px auto;
+.navBtn {
+  margin: 0px auto;
 }
 /* #myRange{
     -webkit-appearance: none;
@@ -74,9 +71,8 @@ section{
 } */
 
 @media only screen and (max-width: 1080px) {
-    #container > div{
-    
-        margin:0px 1px ;
-        width: 2px;
-   }
+  #container > div {
+    margin: 0px 1px;
+    width: 2px;
+  }
 }
